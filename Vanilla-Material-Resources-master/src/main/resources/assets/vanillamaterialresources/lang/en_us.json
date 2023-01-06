@@ -4,5 +4,13 @@
   "block.vanillamaterialresources.echo_block": "Echo Block",
   "block.vanillamaterialresources.echo_ore": "Echo Ore",
   "block.vanillamaterialresources.deepslate_echo_ore": "Deepslate Echo Ore",
-  "block.vanillamaterialresources.netherrack_echo_ore": "Netherrack Echo Ore"
+
+  "block.vanillamaterialresources.netherrack_echo_ore": "Nether Echo Ore",
+  "block.vanillamaterialresources.netherrack_iron_ore": "Nether Iron Ore",
+  "block.vanillamaterialresources.netherrack_redstone_ore": "Nether Redstone Ore",
+
+
+  "block.vanillamaterialresources.end_echo_ore": "Ender Echo Ore",
+  "block.vanillamaterialresources.end_iron_ore": "Ender Iron Ore",
+  "block.vanillamaterialresources.end_redstone_ore": "Ender Redstone Ore"
 }

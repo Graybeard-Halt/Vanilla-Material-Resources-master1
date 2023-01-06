@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "vanillamaterialresources:block/deepslate_echo_ore"
+    "all": "vanillamaterialresources:block/ore/deepslate_ore/deepslate_echo_ore"
   }
 }

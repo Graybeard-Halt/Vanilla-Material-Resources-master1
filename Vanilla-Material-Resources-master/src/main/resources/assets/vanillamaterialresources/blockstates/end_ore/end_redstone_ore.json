@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vanillamaterialresources:block/end_ore/end_redstone_ore"
+    }
+  }
+}

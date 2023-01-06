@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "vanillamaterialresources:block/deepslate_echo_ore"}
+    "": {
+      "model": "vanillamaterialresources:block/deepslate_echo_ore"
+    }
   }
 }

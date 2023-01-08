@@ -3,6 +3,7 @@ package net.haltocarrick.vanillamaterialresources.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.haltocarrick.vanillamaterialresources.VanillaMaterialResources;
+import net.haltocarrick.vanillamaterialresources.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -21,23 +22,23 @@ public class ModBlocks {
 
     //end ore
     public  static final Block END_ECHO_ORE = registerBlock("end_echo_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
     public  static final Block END_IRON_ORE = registerBlock("end_iron_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
     public  static final Block END_REDSTONE_ORE = registerBlock("end_redstone_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
     public  static final Block END_DIAMOND_ORE = registerBlock("end_diamond_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
 
     //netherrack ores
     public  static final Block NETHERRACK_ECHO_ORE = registerBlock("netherrack_echo_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
     public  static final Block NETHERRACK_IRON_ORE = registerBlock("netherrack_iron_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
     public  static final Block NETHERRACK_REDSTONE_ORE = registerBlock("netherrack_redstone_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
     public  static final Block NETHERRACK_DIAMOND_ORE = registerBlock("netherrack_diamond_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
@@ -49,6 +50,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks(){
-        VanillaMaterialResources.LOGGER.info("Registering Mod Blocks for" + VanillaMaterialResources.MOD_ID);
+        VanillaMaterialResources.LOGGER.info("Registering Mod Blocks for " + VanillaMaterialResources.MOD_ID);
     }
 }

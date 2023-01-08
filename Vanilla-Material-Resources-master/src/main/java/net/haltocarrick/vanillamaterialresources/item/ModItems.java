@@ -17,6 +17,6 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        VanillaMaterialResources.LOGGER.info("Registering Mod Items for" + VanillaMaterialResources.MOD_ID);
+        VanillaMaterialResources.LOGGER.info("Registering Mod Items for " + VanillaMaterialResources.MOD_ID);
     }
 }

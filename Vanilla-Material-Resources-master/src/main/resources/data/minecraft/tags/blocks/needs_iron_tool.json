@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "vanillamaterialresources:echo_block"
+    "vanillamaterialresources:echo_block",
+    "vanillamaterialresources:netherrack_diamond_ore",
+    "vanillamaterialresources:netherrack_redstone_ore",
+    "vanillamaterialresources:end_diamond_ore",
+    "vanillamaterialresources:end_redstone_ore"
   ]
 }

@@ -26,6 +26,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
     public  static final Block END_REDSTONE_ORE = registerBlock("end_redstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+    public  static final Block END_DIAMOND_ORE = registerBlock("end_diamond_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
 
     //netherrack ores
     public  static final Block NETHERRACK_ECHO_ORE = registerBlock("netherrack_echo_ore",
@@ -33,6 +35,8 @@ public class ModBlocks {
     public  static final Block NETHERRACK_IRON_ORE = registerBlock("netherrack_iron_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
     public  static final Block NETHERRACK_REDSTONE_ORE = registerBlock("netherrack_redstone_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+    public  static final Block NETHERRACK_DIAMOND_ORE = registerBlock("netherrack_diamond_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

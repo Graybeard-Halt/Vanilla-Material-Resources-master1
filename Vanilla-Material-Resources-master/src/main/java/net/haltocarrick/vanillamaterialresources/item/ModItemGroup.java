@@ -12,4 +12,6 @@ public class ModItemGroup {
             "nether_ore"), () -> new ItemStack(Items.NETHERRACK));
     public static final ItemGroup END_ORE = FabricItemGroupBuilder.build(new Identifier(VanillaMaterialResources.MOD_ID,
             "end_ore"), () -> new ItemStack(Items.END_STONE));
+    public static final ItemGroup ECHO = FabricItemGroupBuilder.build(new Identifier(VanillaMaterialResources.MOD_ID,
+            "echo"), () -> new ItemStack(ModItems.ECHO_INGOT));
 }

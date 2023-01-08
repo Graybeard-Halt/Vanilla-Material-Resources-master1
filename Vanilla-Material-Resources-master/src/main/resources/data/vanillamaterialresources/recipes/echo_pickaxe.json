@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "vanillamaterialresources:echo_ingot"
+    }
+  },
+  "result": {
+    "item": "vanillamaterialresources:echo_pickaxe"
+  }
+}

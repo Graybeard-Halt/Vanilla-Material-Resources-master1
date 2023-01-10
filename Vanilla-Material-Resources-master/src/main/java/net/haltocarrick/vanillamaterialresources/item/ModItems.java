@@ -28,6 +28,7 @@ public class ModItems {
     public static final Item ECHO_HOE = registerItem("echo_hoe",
             new ModHoeItem(ModToolMaterials.ECHO, -1, -1f,
                     new FabricItemSettings().fireproof().group(ModItemGroup.ECHO)));
+    //Copper
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterials.COPPER, 2, -2.6f,
                     new FabricItemSettings().group(ModItemGroup.COPPER)));
@@ -43,6 +44,7 @@ public class ModItems {
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new ModHoeItem(ModToolMaterials.COPPER, -1, -1f,
                     new FabricItemSettings().group(ModItemGroup.COPPER)));
+    //Armor Echo
     public static final Item ECHO_CHESTPLATE = registerItem("echo_chestplate",
             new ModNightVisionArmorItem(ModArmorMaterials.ECHO, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.ECHO)));
@@ -55,6 +57,7 @@ public class ModItems {
     public static final Item ECHO_BOOTS = registerItem("echo_boots",
             new ArmorItem(ModArmorMaterials.ECHO, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.ECHO)));
+    //Armor Blackout
     public static final Item BLACKOUT_CHESTPLATE = registerItem("blackout_chestplate",
             new ModInvsibleArmorItem(ModArmorMaterials.BLACKOUT, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.BLACKOUT)));

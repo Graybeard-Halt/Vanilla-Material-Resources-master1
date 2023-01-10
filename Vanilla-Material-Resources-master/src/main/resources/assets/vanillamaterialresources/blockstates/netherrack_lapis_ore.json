@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vanillamaterialresources:block/netherrack_ore/netherrack_lapis_ore"
+    }
+  }
+}

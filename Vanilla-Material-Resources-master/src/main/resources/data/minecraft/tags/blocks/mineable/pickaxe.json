@@ -4,6 +4,22 @@
     "vanillamaterialresources:echo_block",
     "vanillamaterialresources:echo_ore",
     "vanillamaterialresources:deepslate_echo_ore",
-    "vanillamaterialresources:netherrack_echo_ore"
+    "vanillamaterialresources:netherrack_echo_ore",
+    "vanillamaterialresources:netherrack_redstone_ore",
+    "vanillamaterialresources:netherrack_diamond_ore",
+    "vanillamaterialresources:netherrack_lapis_ore",
+    "vanillamaterialresources:netherrack_coal_ore",
+    "vanillamaterialresources:netherrack_iron_ore",
+    "vanillamaterialresources:netherrack_copper_ore",
+    "vanillamaterialresources:netherrack_emerald_ore",
+    "vanillamaterialresources:end_redstone_ore",
+    "vanillamaterialresources:end_diamond_ore",
+    "vanillamaterialresources:end_iron_ore",
+    "vanillamaterialresources:end_coal_ore",
+    "vanillamaterialresources:end_emerald_ore",
+    "vanillamaterialresources:end_lapis_ore",
+    "vanillamaterialresources:end_gold_ore",
+    "vanillamaterialresources:end_echo_ore",
+    "vanillamaterialresources:end_copper_ore"
   ]
 }

@@ -11,17 +11,54 @@
   "item.vanillamaterialresources.echo_pickaxe": "Echo Pickaxe",
   "item.vanillamaterialresources.echo_shovel": "Echo Shovel",
 
+  "item.vanillamaterialresources.echo_chestplate": "Echo Chestplate",
+  "item.vanillamaterialresources.echo_leggings": "Echo Leggings",
+  "item.vanillamaterialresources.echo_boots": "Echo Boots",
+  "item.vanillamaterialresources.echo_helmet": "Echo Helmet",
+
+  "block.vanillamaterialresources.fire_log": "Fire Log",
+  "block.vanillamaterialresources.fire_planks": "Fire Planks",
+  "block.vanillamaterialresources.stripped_fire_log": "Stripped Fire Log",
+  "block.vanillamaterialresources.stripped_fire_wood": "Stripped Fire Wood",
+  "block.vanillamaterialresources.fire_wood": "Fire Wood",
+  "block.vanillamaterialresources.fire_sapling": "Fire Sapling",
+  "block.vanillamaterialresources.fire_leaves": "Fire Leaves",
+
+  "item.vanillamaterialresources.blackout_chestplate": "Blackout Chestplate",
+  "item.vanillamaterialresources.blackout_leggings": "Blackout Leggings",
+  "item.vanillamaterialresources.blackout_boots": "Blackout Boots",
+  "item.vanillamaterialresources.blackout_helmet": "Blackout Helmet",
+
+  "item.vanillamaterialresources.copper_sword": "Copper Sword",
+  "item.vanillamaterialresources.copper_axe": "Copper Axe",
+  "item.vanillamaterialresources.copper_hoe": "Copper Hoe",
+  "item.vanillamaterialresources.copper_pickaxe": "Copper Pickaxe",
+  "item.vanillamaterialresources.copper_shovel": "Copper Shovel",
+
   "itemGroup.vanillamaterialresources.echo": "Echo",
+  "itemGroup.vanillamaterialresources.fire_wood": "Fire Wood",
+  "itemGroup.vanillamaterialresources.copper": "Copper",
   "itemGroup.vanillamaterialresources.end_ore": "End Ores",
   "itemGroup.vanillamaterialresources.nether_ore": "Nether Ores",
+  "itemGroup.vanillamaterialresources.blackout": "Blackout Armor",
 
   "block.vanillamaterialresources.netherrack_echo_ore": "Nether Echo Ore",
   "block.vanillamaterialresources.netherrack_iron_ore": "Nether Iron Ore",
   "block.vanillamaterialresources.netherrack_redstone_ore": "Nether Redstone Ore",
   "block.vanillamaterialresources.netherrack_diamond_ore": "Nether Diamond Ore",
+  "block.vanillamaterialresources.netherrack_coal_ore": "Nether Coal Ore",
+  "block.vanillamaterialresources.netherrack_emerald_ore": "Nether Emerald Ore",
+  "block.vanillamaterialresources.netherrack_copper_ore": "Nether Copper Ore",
+  "block.vanillamaterialresources.netherrack_lapis_ore": "Nether Lapis Lazuli Ore",
 
   "block.vanillamaterialresources.end_echo_ore": "Ender Echo Ore",
   "block.vanillamaterialresources.end_iron_ore": "Ender Iron Ore",
   "block.vanillamaterialresources.end_redstone_ore": "Ender Redstone Ore",
-  "block.vanillamaterialresources.end_diamond_ore": "Ender Diamond Ore"
+  "block.vanillamaterialresources.end_diamond_ore": "Ender Diamond Ore",
+  "block.vanillamaterialresources.end_coal_ore": "Ender Coal Ore",
+  "block.vanillamaterialresources.end_emerald_ore": "Ender Emerald Ore",
+  "block.vanillamaterialresources.end_copper_ore": "Ender Copper Ore",
+  "block.vanillamaterialresources.end_lapis_ore": "Ender Lapis Lazuli Ore",
+  "block.vanillamaterialresources.end_gold_ore": "Ender Gold Ore"
+
 }

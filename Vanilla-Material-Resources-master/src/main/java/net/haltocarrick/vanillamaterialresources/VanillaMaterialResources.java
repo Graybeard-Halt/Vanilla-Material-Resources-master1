@@ -3,6 +3,8 @@ package net.haltocarrick.vanillamaterialresources;
 import net.fabricmc.api.ModInitializer;
 import net.haltocarrick.vanillamaterialresources.block.ModBlocks;
 import net.haltocarrick.vanillamaterialresources.item.ModItems;
+import net.haltocarrick.vanillamaterialresources.world.feature.ModConfiguredFeatures;
+import net.haltocarrick.vanillamaterialresources.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,11 @@ public class VanillaMaterialResources implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGen.generateModWorldGen();
 	}
 }

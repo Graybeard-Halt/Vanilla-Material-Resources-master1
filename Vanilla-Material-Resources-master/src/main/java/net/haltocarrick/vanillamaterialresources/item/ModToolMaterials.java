@@ -1,6 +1,7 @@
 package net.haltocarrick.vanillamaterialresources.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
@@ -8,7 +9,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-     ECHO(MiningLevels.DIAMOND, 1824, 8.3f, 3.5f, 13, () -> Ingredient.ofItems(ModItems.ECHO_INGOT));
+     ECHO(MiningLevels.DIAMOND, 1824, 8.3f, 3.5f, 13, () -> Ingredient.ofItems(ModItems.ECHO_INGOT)),
+    COPPER(MiningLevels.IRON, 203, 2f, 2f, 15, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

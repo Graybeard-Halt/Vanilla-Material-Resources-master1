@@ -3,7 +3,6 @@ package net.haltocarrick.vanillamaterialresources.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.haltocarrick.vanillamaterialresources.VanillaMaterialResources;
-import net.haltocarrick.vanillamaterialresources.block.custom.FireWoodBlock;
 import net.haltocarrick.vanillamaterialresources.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -57,19 +56,6 @@ public class ModBlocks {
             new RedstoneOreBlock(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
     public  static final Block NETHERRACK_COPPER_ORE = registerBlock("netherrack_copper_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-//wood
-    public  static final Block FIRE_LOG = registerBlock("fire_log",
-            new FireWoodBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4f).requiresTool()), ModItemGroup.FIRE_WOOD);
-    public  static final Block FIRE_WOOD = registerBlock("fire_wood",
-            new FireWoodBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4f).requiresTool()), ModItemGroup.FIRE_WOOD);
-    public  static final Block STRIPPED_FIRE_LOG = registerBlock("stripped_fire_log",
-            new FireWoodBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(4f).requiresTool()), ModItemGroup.FIRE_WOOD);
-    public  static final Block STRIPPED_FIRE_WOOD = registerBlock("stripped_fire_wood",
-            new FireWoodBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4f).requiresTool()), ModItemGroup.FIRE_WOOD);
-    public  static final Block FIRE_PLANKS = registerBlock("fire_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(4f).requiresTool()), ModItemGroup.FIRE_WOOD);
-    public  static final Block FIRE_LEAVES = registerBlock("fire_leaves",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque().requiresTool()), ModItemGroup.FIRE_WOOD);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

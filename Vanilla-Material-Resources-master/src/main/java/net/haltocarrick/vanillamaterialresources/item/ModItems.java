@@ -2,6 +2,7 @@ package net.haltocarrick.vanillamaterialresources.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.haltocarrick.vanillamaterialresources.VanillaMaterialResources;
+import net.haltocarrick.vanillamaterialresources.entity.ModEntities;
 import net.haltocarrick.vanillamaterialresources.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -57,6 +58,7 @@ public class ModItems {
     public static final Item ECHO_BOOTS = registerItem("echo_boots",
             new ArmorItem(ModArmorMaterials.ECHO, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.ECHO)));
+
     //Armor Blackout
     public static final Item BLACKOUT_CHESTPLATE = registerItem("blackout_chestplate",
             new ModInvsibleArmorItem(ModArmorMaterials.BLACKOUT, EquipmentSlot.CHEST,
@@ -71,8 +73,11 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.BLACKOUT, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.BLACKOUT)));
 
+    //spawn eggs
 
-
+    public static final Item ECHO_SPAWN_EGG = registerItem("echo_spawn_egg",
+            new SpawnEggItem(ModEntities.dragon,0x948e8d, 0x3b3635,
+                    new FabricItemSettings().group(ModItemGroup.ECHO)));
 
 
     private static Item registerItem(String name, Item item) {

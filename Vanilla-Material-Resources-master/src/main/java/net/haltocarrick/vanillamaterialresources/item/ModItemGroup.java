@@ -19,6 +19,5 @@ public class ModItemGroup {
             "copper"), () -> new ItemStack(Items.COPPER_INGOT));
     public static final ItemGroup BLACKOUT = FabricItemGroupBuilder.build(new Identifier(VanillaMaterialResources.MOD_ID,
             "blackout"), () -> new ItemStack(Items.BLACK_DYE ));
-    public static final ItemGroup FIRE_WOOD = FabricItemGroupBuilder.build(new Identifier(VanillaMaterialResources.MOD_ID,
-            "fire_wood"), () -> new ItemStack(ModBlocks.FIRE_LOG));
+
 }

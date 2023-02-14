@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dragon.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*120)", 0]
+					}
+				},
+				"body": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*120)", 0]
+					}
+				},
+				"wing": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*120)", 0]
+					}
+				},
+				"wing1": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*120)", 0]
+					}
+				},
+				"tail": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*120)", 0]
+					}
+				}
+			}
+		},
+		"animation.dragon.walk": {
+			"loop": true,
+			"animation_length": 1.5
+		}
+	},
+	"geckolib_format_version": 2
+}

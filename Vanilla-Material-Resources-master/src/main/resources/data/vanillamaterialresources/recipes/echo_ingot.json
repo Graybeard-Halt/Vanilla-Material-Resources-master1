@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "vanillamaterialresources:echo_shard"
+      "item": "minecraft:echo_shard"
     },
     "X": {
       "item": "minecraft:iron_ingot"
@@ -15,6 +15,6 @@
   },
   "result": {
     "item": "vanillamaterialresources:echo_ingot",
-    "count": 4
+    "count": 2
   }
 }

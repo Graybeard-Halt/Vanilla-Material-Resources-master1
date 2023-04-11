@@ -6,9 +6,11 @@
   "name": "Vanilla Material Resources",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Halt O'Carrick"
+    "Halt O'Carrick",
+    "robdog777"
   ],
   "contact": {
+
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
@@ -19,10 +21,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.haltocarrick.vanillamaterialresources.VanillaMaterialResources"
+      "net.haltocarrick.vanillamaterialresources.VanillaMaterialResources",
+      "com.robdog777.enchantmentsplus.EnchantmentsPlus"
+    ],
+    "client": [
+      "net.haltocarrick.vanillamaterialresources.VanillaMaterialResourcesClient",
+      "com.robdog777.enchantmentsplus.EnchantmentsPlusClient"
     ]
   },
   "mixins": [
+    "enchantmentsplus.mixins.json",
     "vanillamaterialresources.mixins.json"
   ],
 

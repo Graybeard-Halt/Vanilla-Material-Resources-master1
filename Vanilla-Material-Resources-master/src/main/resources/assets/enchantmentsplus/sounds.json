@@ -1,0 +1,14 @@
+{
+  "swoop": {
+    "subtitle": "subtitles.enchantmentsplus.swoop",
+    "sounds": [
+      "enchantmentsplus:swoop"
+    ]
+  },
+  "blurp": {
+    "subtitle": "subtitles.enchantmentsplus.blurp",
+    "sounds": [
+      "enchantmentsplus:blurp"
+    ]
+  }
+}

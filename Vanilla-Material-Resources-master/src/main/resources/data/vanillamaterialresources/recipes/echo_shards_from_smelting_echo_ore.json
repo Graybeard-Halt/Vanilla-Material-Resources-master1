@@ -4,7 +4,7 @@
   "ingredient": {
     "item": "vanillamaterialresources:echo_ore"
   },
-  "result": "vanillamaterialresources:echo_shard",
+  "result": "minecraft:echo_shard",
   "experience": 1.0,
   "cookingtime": 200
 }

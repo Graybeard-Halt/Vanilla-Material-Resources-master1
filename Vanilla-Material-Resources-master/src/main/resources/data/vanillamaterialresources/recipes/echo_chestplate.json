@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "vanillamaterialresources:echo_ingot"
+    }
+  },
+  "result": {
+    "item": "vanillamaterialresources:echo_chestplate"
+  }
+}

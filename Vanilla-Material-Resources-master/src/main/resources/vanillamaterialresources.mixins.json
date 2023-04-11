@@ -4,6 +4,7 @@
   "package": "net.haltocarrick.vanillamaterialresources.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+
   ],
   "client": [
     "ExampleMixin"

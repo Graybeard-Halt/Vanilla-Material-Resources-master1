@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "vanillamaterialresources:block/large_echo_crystal"
+  }
+}

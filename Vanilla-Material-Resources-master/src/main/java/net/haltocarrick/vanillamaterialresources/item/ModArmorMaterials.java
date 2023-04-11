@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     BLACKOUT("blackout", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.TIPPED_ARROW)),
     COPPER("copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
-    ECHO("echo", 34, new int[]{3, 6, 8, 3}, 13, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.4f, 0.0f, () -> Ingredient.ofItems(ModItems.ECHO_INGOT));
+    ECHO("echo", 40, new int[]{5, 8, 10, 5}, 13, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.4f, 0.0f, () -> Ingredient.ofItems(ModItems.ECHO_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

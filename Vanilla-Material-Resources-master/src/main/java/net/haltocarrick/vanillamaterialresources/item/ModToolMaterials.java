@@ -9,7 +9,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-     ECHO(MiningLevels.DIAMOND, 1824, 8.3f, 3.5f, 13, () -> Ingredient.ofItems(ModItems.ECHO_INGOT)),
+     ECHO(MiningLevels.NETHERITE, 2548, 10f, 5f, 13, () -> Ingredient.ofItems(ModItems.ECHO_INGOT)),
     COPPER(MiningLevels.IRON, 203, 2f, 2f, 15, () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
     private final int miningLevel;

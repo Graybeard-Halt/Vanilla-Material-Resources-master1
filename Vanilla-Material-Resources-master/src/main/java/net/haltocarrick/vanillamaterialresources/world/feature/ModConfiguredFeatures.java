@@ -4,8 +4,11 @@ import net.haltocarrick.vanillamaterialresources.VanillaMaterialResources;
 import net.haltocarrick.vanillamaterialresources.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
+import net.minecraft.tag.BlockTags;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
 import java.util.List;
 
@@ -125,7 +128,6 @@ public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_IRON_ORE =
             ConfiguredFeatures.register("end_iron_ore", Feature.ORE,
                     new OreFeatureConfig(END_IRON_ORES, 9));
-
     public static void registerConfiguredFeatures() {
         System.out.println("Registering ModConfiguredFeatures for " + VanillaMaterialResources.MOD_ID);
     }

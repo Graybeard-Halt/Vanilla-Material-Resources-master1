@@ -4,7 +4,7 @@
   "ingredient": {
     "item": "vanillamaterialresources:deepslate_echo_ore"
   },
-  "result": "vanillamaterialresources:echo_shard",
+  "result": "minecraft:echo_shard",
   "experience": 1.3,
   "cookingtime": 215
 }

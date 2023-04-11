@@ -8,61 +8,67 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import static net.minecraft.block.Material.AMETHYST;
+
 public class ModBlocks {
-    public  static final Block ECHO_BLOCK = registerBlock("echo_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
-    public  static final Block ECHO_ORE = registerBlock("echo_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 3.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
-    public  static final Block DEEPSLATE_ECHO_ORE = registerBlock("deepslate_echo_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f, 3.0f).requiresTool()),ItemGroup.BUILDING_BLOCKS);
+
+
+
+    public  static final Block ECHO_BLOCK = register("echo_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.ECHO);
+    public  static final Block ECHO_ORE = register("echo_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 3.0f).requiresTool()),ModItemGroup.ECHO);
+    public  static final Block DEEPSLATE_ECHO_ORE = register("deepslate_echo_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f, 3.0f).requiresTool()),ModItemGroup.ECHO);
 
     //end ore
-    public  static final Block END_ECHO_ORE = registerBlock("end_echo_ore",
+    public  static final Block END_ECHO_ORE = register("end_echo_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_IRON_ORE = registerBlock("end_iron_ore",
+    public  static final Block END_IRON_ORE = register("end_iron_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_REDSTONE_ORE = registerBlock("end_redstone_ore",
+    public  static final Block END_REDSTONE_ORE = register("end_redstone_ore",
             new RedstoneOreBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_DIAMOND_ORE = registerBlock("end_diamond_ore",
+    public  static final Block END_DIAMOND_ORE = register("end_diamond_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_COPPER_ORE = registerBlock("end_copper_ore",
+    public  static final Block END_COPPER_ORE = register("end_copper_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_COAL_ORE = registerBlock("end_coal_ore",
+    public  static final Block END_COAL_ORE = register("end_coal_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_EMERALD_ORE = registerBlock("end_emerald_ore",
+    public  static final Block END_EMERALD_ORE = register("end_emerald_ore",
             new RedstoneOreBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_GOLD_ORE = registerBlock("end_gold_ore",
+    public  static final Block END_GOLD_ORE = register("end_gold_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
-    public  static final Block END_LAPIS_ORE = registerBlock("end_lapis_ore",
+    public  static final Block END_LAPIS_ORE = register("end_lapis_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f, 9.0f).requiresTool()), ModItemGroup.END_ORE);
 
     //netherrack ores
-    public  static final Block NETHERRACK_ECHO_ORE = registerBlock("netherrack_echo_ore",
+    public  static final Block NETHERRACK_ECHO_ORE = register("netherrack_echo_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_IRON_ORE = registerBlock("netherrack_iron_ore",
+    public  static final Block NETHERRACK_IRON_ORE = register("netherrack_iron_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_REDSTONE_ORE = registerBlock("netherrack_redstone_ore",
+    public  static final Block NETHERRACK_REDSTONE_ORE = register("netherrack_redstone_ore",
             new RedstoneOreBlock(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_DIAMOND_ORE = registerBlock("netherrack_diamond_ore",
+    public  static final Block NETHERRACK_DIAMOND_ORE = register("netherrack_diamond_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_COAL_ORE = registerBlock("netherrack_coal_ore",
+    public  static final Block NETHERRACK_COAL_ORE = register("netherrack_coal_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_EMERALD_ORE = registerBlock("netherrack_emerald_ore",
+    public  static final Block NETHERRACK_EMERALD_ORE = register("netherrack_emerald_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_LAPIS_ORE = registerBlock("netherrack_lapis_ore",
+    public  static final Block NETHERRACK_LAPIS_ORE = register("netherrack_lapis_ore",
             new RedstoneOreBlock(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
-    public  static final Block NETHERRACK_COPPER_ORE = registerBlock("netherrack_copper_ore",
+    public  static final Block NETHERRACK_COPPER_ORE = register("netherrack_copper_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).requiresTool()), ModItemGroup.NETHER_ORE);
 
 
-    private static Block registerBlock(String name, Block block, ItemGroup group) {
-        registerBlockItem(name, block, group);
+    private static Block register(String name, Block block, ItemGroup group) {
+        registerBlock(name, block, group);
     return Registry.register(Registry.BLOCK, new Identifier(VanillaMaterialResources.MOD_ID, name), block);
     }
-    private static Item registerBlockItem(String name, Block block, ItemGroup group){
+    private static Item registerBlock(String name, Block block, ItemGroup group){
         return Registry.register(Registry.ITEM, new Identifier(VanillaMaterialResources.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }

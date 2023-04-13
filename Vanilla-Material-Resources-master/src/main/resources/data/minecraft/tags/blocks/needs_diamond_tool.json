@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "vanillamaterialresources:echo_ore",
-    "vanillamaterialresources:deepslate_echo_ore"
+    "vanillamaterialresources:deepslate_echo_ore",
+    "vanillamaterialresources:nether_echo_ore",
+    "vanillamaterialresources:end_echo_ore"
   ]
 }
